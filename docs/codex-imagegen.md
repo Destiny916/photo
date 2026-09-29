@@ -6,7 +6,7 @@ The authoritative runnable copy is bin/codex-imagegen.
 #!/usr/bin/env bash
 set -euo pipefail
 
-config_file="${XDG_CONFIG_HOME:-\$HOME/.config}/codex-imagegen/credentials"
+config_file="${XDG_CONFIG_HOME:-$HOME/.config}/codex-imagegen/credentials"
 env_api_key="${OPENAI_API_KEY:-}"
 env_base_url="${OPENAI_BASE_URL:-}"
 env_model="${IMAGE_MODEL:-}"
